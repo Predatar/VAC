@@ -14,9 +14,7 @@ const Header = () => {
           <Logo />
           <div className="header__wrapper">
             <div className="header__links">
-              <LinkLiner wx={137}>
-                Inventory
-              </LinkLiner>
+              <LinkLiner wx={137}>Inventory</LinkLiner>
               <LinkSolid wx={200} wm={178} ws={130}>
                 Request a car
               </LinkSolid>
