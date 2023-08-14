@@ -1,12 +1,23 @@
 import React from 'react';
 
+import { Switch, Route } from 'react-router-dom';
+
+import LinkLiner from '../../UI/links/linkLiner/LinkLiner';
+
 import './index.scss';
 
 const App = () => {
   return (
-    <div className="class">
-      app <span className="icon-Car"></span>
-    </div>
+    <Switch>
+      <Route exact path="/">
+        <div className="class">
+          <LinkLiner to={'/second'} wx={200}>Liner</LinkLiner>
+        </div>
+      </Route>
+      <Route path="/second">
+        <>Second</>
+      </Route>
+    </Switch>
   );
 };
 
