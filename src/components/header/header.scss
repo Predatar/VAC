@@ -3,6 +3,10 @@
   display: flex;
   align-items: center;
 
+  @media (max-width: 425px) {
+    height: 55px;
+  }
+
   &__container {
     display: flex;
     justify-content: space-between;
@@ -16,6 +20,14 @@
   &__links {
     display: flex;
     gap: 20px;
+
+    @media (max-width: 640px) {
+      a {
+        &:first-of-type {
+          display: none;
+        }
+      }
+    }
   }
 
   &__burger {
@@ -30,6 +42,15 @@
       height: 4px;
       border-radius: 2px;
       background: var(--primary---content);
+    }
+
+    @media (max-width: 640px) {
+      margin-left: 23px;
+    }
+
+    @media (max-width: 425px) {
+      width: 30px;
+      height: 25px;
     }
   }
 }

@@ -26,6 +26,10 @@ img {
 
 .container {
   margin: 0 auto;
-  padding: 0 15px;
-  width: min(100%, 1230px);
+  padding: 0 24px;
+  width: min(100%, 1248px);
+
+  @media (max-width: 425px) {
+    padding: 0 20px;
+  }
 }

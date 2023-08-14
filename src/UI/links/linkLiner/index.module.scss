@@ -22,13 +22,15 @@
   &:hover {
     border-color: var(--hover---primary);
     color: var(--hover---primary);
-  }@media (max-width: 768px) {
+  }
+  @media (max-width: 768px) {
     width: var(--widthM);
-}
-@media (max-width: 425px) {
-  width: var(--widthS);
-  font-size: 14px;
-}
+  }
+  @media (max-width: 425px) {
+    width: var(--widthS);
+    height: 35px;
+    font-size: 14px;
+  }
 }
 .linkDisable {
   border-color: rgba(#7481ff, 0.5);
