@@ -2,6 +2,7 @@
   --primary---white: #fff;
   --primary---content: #41456b;
   --primary---accent: #7481ff;
+  --purple: #7380ff;
   --secondary---text: #606276;
   --secondary---opacity: rgba(116, 129, 255, 0.2);
   --secondary---s-color: #d7d7d7;
@@ -21,4 +22,10 @@
 img {
   width: 100%;
   height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: min(100%, 1230px);
 }

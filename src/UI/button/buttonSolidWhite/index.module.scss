@@ -15,6 +15,13 @@
   text-transform: uppercase;
   color: var(--primary---accent);
   cursor: pointer;
+  @media (max-width: 768px) {
+    width: var(--widthM);
+}
+@media (max-width: 425px) {
+  width: var(--widthS);
+  font-size: 14px;
+}
 }
 .btnDisable {
   color: rgba(#7481ff, 0.5);
