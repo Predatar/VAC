@@ -1,0 +1,45 @@
+.dropDown {
+  padding: 9px 0 0;
+  width: var(--width);
+  height: var(--height);
+
+  border-radius: 2px;
+  border: 1px solid var(--secondary---s-color);
+  overflow: hidden;
+
+  color: var(--primary---content);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 159%; /* 25.44px */
+  cursor: pointer;
+}
+.selected {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+  svg {
+    width: 16px;
+    height: 8px;
+  }
+}
+.btnActive {
+  transform: rotate(-180deg);
+}
+.group {
+  margin-top: 10px;
+  padding-left: 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  div {
+    display: inline;
+    cursor: pointer;
+  }
+}

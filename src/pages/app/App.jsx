@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Switch, Route } from 'react-router-dom';
 
-import LinkLiner from '../../UI/links/linkLiner/LinkLiner';
+import DropDown from '../../UI/dropDown/DropDown';
 
 import './index.scss';
 
@@ -10,9 +10,7 @@ const App = () => {
   return (
     <Switch>
       <Route exact path="/">
-        <div className="class">
-          <LinkLiner to={'/second'} wx={200}>Liner</LinkLiner>
-        </div>
+        <DropDown wx={200} item={['Item1', 'Item2']} />
       </Route>
       <Route path="/second">
         <>Second</>
