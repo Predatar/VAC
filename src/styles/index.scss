@@ -1,9 +1,21 @@
+:root {
+  --primary---white: #fff;
+  --primary---content: #41456b;
+  --primary---accent: #7481ff;
+  --secondary---text: #606276;
+  --secondary---opacity: rgba(116, 129, 255, 0.2);
+  --secondary---s-color: #d7d7d7;
+  --neutrals---error: #f54e4e;
+  --hover---primary: #6270ff;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   position: relative;
   text-decoration: none;
+  font-family: 'Gilroy';
 }
 
 img {

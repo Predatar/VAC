@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.eot');
+  src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
+    url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff'), url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-SemiBold.eot');
+  src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+    url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-SemiBold.woff') format('woff'), url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.eot');
+  src: local('Gilroy Regular'), local('Gilroy-Regular'),
+    url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Regular.woff') format('woff'), url('../fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.eot');
+  src: local('Gilroy Medium'), local('Gilroy-Medium'),
+    url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Medium.woff') format('woff'), url('../fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Bold.eot');
+  src: local('Gilroy Bold'), local('Gilroy-Bold'), url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Bold.woff') format('woff'), url('../fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot');
+  src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  display: flex;
+  align-items: center;
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Arrow-Bottom:before {
+  content: '\e900';
+}
+
+.icon-Arrow-Top:before {
+  content: '\e901';
+}
+
+.icon-Car:before {
+  content: '\e902';
+}
+
+.icon-Clock:before {
+  content: '\e903';
+}
+
+.icon-Close:before {
+  content: '\e904';
+}
+
+.icon-Delivery:before {
+  content: '\e905';
+}
+
+.icon-Finance:before {
+  content: '\e906';
+}
+
+.icon-Mail:before {
+  content: '\e907';
+}
+
+.icon-Name:before {
+  content: '\e908';
+}
+
+.icon-Phone:before {
+  content: '\e909';
+}
+
+.icon-Procent:before {
+  content: '\e90a';
+}
+
+.icon-Search:before {
+  content: '\e90b';
+}
+
+.icon-Share:before {
+  content: '\e90c';
+}
+
+.icon-Success:before {
+  content: '\e90d';
+}
+
+.icon-ZoomMinus:before {
+  content: '\e90e';
+}
+
+.icon-ZoomPlus:before {
+  content: '\e90f';
+}
