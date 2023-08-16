@@ -24,6 +24,12 @@ img {
   height: 100%;
 }
 
+html,
+body {
+  height: var(--heightMax);
+  overflow-x: hidden;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 24px;

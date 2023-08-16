@@ -10,6 +10,10 @@ import './styles/index.scss';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
+document.body.style = `--heightMax: ${window.innerHeight}px`;
+window.addEventListener('resize', () => {
+  document.body.style = `--heightMax: ${window.innerHeight}px`;
+});
 root.render(
   <HashRouter>
     <App />

@@ -1,0 +1,106 @@
+.section {
+  margin: 0 auto;
+  width: min(100%, 1440px);
+}
+.card {
+  margin: 0 auto;
+  padding: 60px 60px 64px;
+  width: 605px;
+  border-radius: 5px;
+  background: var(--primary---white);
+
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.1);
+  top: -40px;
+  z-index: 1;
+
+  @media (max-width: 1024px) {
+    padding: 40px;
+    width: 565px;
+    top: -44px;
+  }
+
+  @media (max-width: 640px) {
+    padding: 20px;
+    width: 100%;
+    top: -40px;
+  }
+}
+.cardTitle {
+  color: var(--primary---content);
+  text-align: center;
+
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 140.5%;
+
+  @media (max-width: 640px) {
+    font-size: 30px;
+  }
+}
+.cardSubTitle {
+  color: var(--primary---accent);
+  text-align: center;
+
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 140%;
+
+  @media (max-width: 640px) {
+    padding: 0 35px;
+    font-size: 24px;
+  }
+}
+.cardDescr {
+  margin-top: 20px;
+  color: var(--secondary---text);
+  text-align: center;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0.32px;
+
+  @media (max-width: 640px) {
+    margin-top: 13px;
+  }
+}
+.honda {
+  width: 500px;
+  position: absolute;
+  z-index: 0;
+  top: 190px;
+  left: -90px;
+  transition: all 0.2s;
+
+  @media (max-width: 1024px) {
+    width: 396px;
+    top: 321px;
+    left: -105px;
+  }
+
+  @media (max-width: 640px) {
+    width: 274px;
+    top: 366px;
+    left: -94px;
+  }
+}
+.lexus {
+  width: 500px;
+  position: absolute;
+  z-index: 0;
+  top: 26px;
+  right: -40px;
+  transition: all 0.2s;
+
+  @media (max-width: 1024px) {
+    width: 404px;
+    top: 179px;
+    right: -157px;
+  }
+
+  @media (max-width: 640px) {
+    width: 259px;
+    top: 270px;
+    right: -79px;
+  }
+}

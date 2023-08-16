@@ -45,6 +45,7 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^5.3.4",
+    "swiper": "^10.1.0",
     "yup": "^1.2.0"
   }
 }

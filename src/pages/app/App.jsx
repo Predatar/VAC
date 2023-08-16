@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Suspense fallback={<Preloader />}>
-        {/* <Header /> */}
+        <Header />
         <Switch>
           <Route exact path="/">
             <MainPage />

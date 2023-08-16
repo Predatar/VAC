@@ -11,7 +11,7 @@ const Preloader = () => {
 				<img src={logo} alt="logo" />
 			</div>
 			<div className="preloader__loading">
-				Loading <div class="custom-loader"></div>
+				Loading <div className="custom-loader"></div>
 			</div>
 		</div>
 	)
