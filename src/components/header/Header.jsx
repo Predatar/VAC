@@ -11,7 +11,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="header__container">
-          <Logo />
+          <Logo theme={'light'}/>
           <div className="header__wrapper">
             <div className="header__links">
               <LinkLiner to={'/'} wx={137}>

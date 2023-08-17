@@ -41,7 +41,7 @@ const FouthSection = () => {
           </div>
           <div className={styles.item}>
             <div className={styles.imgUp}>
-              <img src={screen < 1186 ? triangleUp : triangleDown} alt="triangle" />
+              <img src={screen < 1187 ? triangleUp : triangleDown} alt="triangle" />
             </div>
             <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path

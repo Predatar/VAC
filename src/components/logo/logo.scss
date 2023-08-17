@@ -19,3 +19,23 @@
     }
   }
 }
+.logoWhite {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--primary---white);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 108.5%;
+  letter-spacing: 0.56px;
+  &__img {
+    width: 50px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 20.295px;
+    &__img {
+      width: 36.242px;
+    }
+  }
+}
