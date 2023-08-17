@@ -5,6 +5,7 @@ import ThirdSection from './section/thirdSection';
 import FouthSection from './section/fouthSection';
 import FifthSection from './section/fifthSection';
 import SixthSection from './section/sixthSection';
+import SeventhSection from './section/seventhSection';
 
 const MainPage = () => {
   return (
@@ -15,6 +16,7 @@ const MainPage = () => {
       <FouthSection />
       <FifthSection />
       <SixthSection />
+      <SeventhSection />
     </>
   );
 };

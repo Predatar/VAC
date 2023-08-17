@@ -37,7 +37,7 @@ const FirstSection = () => {
             modules={[Navigation]}
             navigation
             autoHeight
-            className={styles.slider}
+            className={styles.slider + ' firstSlider'}
             onSlideChange={swiper => setSlide(swiper.activeIndex)}
           >
             <SwiperSlide className={styles.slide}>

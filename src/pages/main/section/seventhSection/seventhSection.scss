@@ -1,20 +1,21 @@
-.firstSlider {
+.seventhSwiper {
   .swiper-button-prev,
   .swiper-button-next {
     width: 53px;
     height: 53px;
-    background: var(--primary---white);
+    background: var(--primary---accent);
     border-radius: 50%;
-    top: 47%;
-    color: var(--primary---accent);
+    color: var(--primary---white);
 
     &::after {
       font-size: 24px;
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: 767px) {
       width: 35px;
       height: 35px;
+
+      top: 22%;
 
       &::after {
         font-size: 17px;
