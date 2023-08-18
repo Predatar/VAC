@@ -7,6 +7,10 @@ import FifthSection from './section/fifthSection';
 import SixthSection from './section/sixthSection';
 import SeventhSection from './section/seventhSection';
 
+import Calculator from '../../UI/calculator/Calculator';
+import EightSection from './section/eightSection';
+import Footer from '../../components/footer/Footer';
+
 const MainPage = () => {
   return (
     <>
@@ -17,6 +21,9 @@ const MainPage = () => {
       <FifthSection />
       <SixthSection />
       <SeventhSection />
+      <Calculator />
+      <EightSection />
+      <Footer />
     </>
   );
 };

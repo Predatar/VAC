@@ -1,0 +1,26 @@
+.eightSlider {
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 35px;
+    height: 35px;
+
+    display: none;
+    background: var(--primary---accent);
+    border-radius: 50%;
+    color: var(--primary---white);
+
+    &::after {
+      font-size: 17px;
+    }
+
+    @media (max-width: 767px) {
+      display: flex;
+    }
+  }
+  .swiper-button-prev {
+    left: 0;
+  }
+  .swiper-button-next {
+    right: 0;
+  }
+}
