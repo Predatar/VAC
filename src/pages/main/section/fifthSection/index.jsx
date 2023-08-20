@@ -22,13 +22,11 @@ const FifthSection = () => {
           </div>
           <div className={styles.container}>
             <div className={styles.title}>Сhoose your dream vehicle in our catalog</div>
-            <div
-              className={styles.containerWrapper}
-            >
+            <div className={styles.containerWrapper}>
               <div className={styles.subtitle}>
                 In our catalogue there are many models of vehicles. Choose your car to your liking.
               </div>
-              <LinkSolid to={'/'} wx={190}>
+              <LinkSolid to={'/'} wx={190} ws={'auto'}>
                 Inventory
               </LinkSolid>
             </div>

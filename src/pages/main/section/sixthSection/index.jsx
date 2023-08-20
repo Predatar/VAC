@@ -18,8 +18,10 @@ const SixthSection = () => {
             </div>
           </div>
           <div className={styles.wrapperBtn}>
-            <div className={styles.subtitle}>What are you waiting? <br /> Get started right now!</div>
-            <LinkSolid to={'/'} wx={200}>
+            <div className={styles.subtitle}>
+              What are you waiting? <br /> Get started right now!
+            </div>
+            <LinkSolid to={'/'} wx={200} ws={'auto'}>
               Request a car
             </LinkSolid>
           </div>

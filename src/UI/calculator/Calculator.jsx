@@ -50,7 +50,7 @@ const Calculator = () => {
             <div className="calculator__range">
               <div className="calculator__range-wrapper">
                 <div className="calculator__range-title">Loan Amount</div>
-                <div className="calculator__range-count">$ {amount  * multiplier}</div>
+                <div className="calculator__range-count">$ {amount * multiplier}</div>
               </div>
               <input
                 type="range"
@@ -94,18 +94,18 @@ const Calculator = () => {
             <div className="calculator__biweek">
               <div className="calculator__price-title">Bi-Weekly Payment</div>
               <div className="calculator__price-count calculator__price-count_big">
-                $ {Math.floor(amount  * multiplier / duration / 2)}
+                $ {Math.floor((amount * multiplier) / duration / 2)}
               </div>
             </div>
             <div className="calculator__month">
               <div className="calculator__price-title">Monthly Payment</div>
-              <div className="calculator__price-count">$ {Math.floor(amount  * multiplier / duration)}</div>
+              <div className="calculator__price-count">$ {Math.floor((amount * multiplier) / duration)}</div>
             </div>
             <div className="calculator__week">
               <div className="calculator__price-title">Weekly Payment</div>
-              <div className="calculator__price-count">$ {Math.floor(amount  * multiplier / duration / 4)}</div>
+              <div className="calculator__price-count">$ {Math.floor((amount * multiplier) / duration / 4)}</div>
             </div>
-            <LinkSolid to={'/'} wx={250}>
+            <LinkSolid to={'/'} wx={250} ws={'auto'}>
               request a car
             </LinkSolid>
           </div>

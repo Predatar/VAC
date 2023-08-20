@@ -11,6 +11,10 @@
       font-size: 24px;
     }
 
+    @media (max-width: 1186px) {
+      top: 47%;
+    }
+
     @media (max-width: 767px) {
       width: 35px;
       height: 35px;

@@ -4,11 +4,13 @@
   background: var(--primary---accent);
 
   @media (max-width: 1024px) {
-    margin-top: 28px;
+    margin-top: 40px;
   }
 
   @media (max-width: 767px) {
+    margin-top: 30px;
     padding-top: 22px;
+    padding-bottom: 18px;
   }
 
   &__wrapper {
