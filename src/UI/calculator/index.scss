@@ -1,12 +1,12 @@
 .calculator {
-  margin-top: 220px;
+  margin-top: var(--mtX);
 
   @media (max-width: 1120px) {
-    margin-top: 159px;
+    margin-top: var(--mtM);
   }
 
   @media (max-width: 767px) {
-    margin-top: 80px;
+    margin-top: var(--mtS);
   }
 
   &__header {

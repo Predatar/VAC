@@ -4,6 +4,7 @@ import Header from '../../components/header/Header';
 import Preloader from '../preloader/Preloader';
 import Footer from '../../components/footer/Footer';
 const MainPage = lazy(() => import('../main'));
+const CalculatorPage = lazy(() => import('../calculator'));
 
 import './index.scss';
 
@@ -16,14 +17,14 @@ const App = () => {
           <Route exact path="/">
             <MainPage />
           </Route>
-          <Route path="/second">
-            <>Second</>
+          <Route path="/calculator">
+            <CalculatorPage />
           </Route>
           <Route path="/preloader">
             <Preloader />
           </Route>
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Suspense>
     </>
   );

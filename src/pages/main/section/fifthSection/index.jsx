@@ -14,10 +14,10 @@ const FifthSection = () => {
         <div className={styles.wrapper}>
           <div className={styles.img}>
             <div className={styles.honda}>
-              <img src={Honda} alt="honda" />
+              <img src={Honda} alt="honda" loading="lazy" />
             </div>
             <div className={styles.toyota}>
-              <img src={Corola} alt="toyota" />
+              <img src={Corola} alt="toyota" loading="lazy" />
             </div>
           </div>
           <div className={styles.container}>

@@ -4,7 +4,7 @@ import LinkSolid from '../links/linkSolid/LinkSolid';
 
 import './index.scss';
 
-const Calculator = () => {
+const Calculator = ({ mtX, mtM, mtS }) => {
   const [multiplier, setMultiplier] = useState(1);
   const [amount, setAmount] = useState(10000);
   const [duration, setDuration] = useState(1);
@@ -19,13 +19,20 @@ const Calculator = () => {
   };
 
   const changeRange = e => {
-    const tempSliderValue = event.target.value;
+    const tempSliderValue = e.target.value;
     const progress = (tempSliderValue / e.target.max) * 100;
     e.target.style.background = `linear-gradient(to right, #7481FF ${progress}%, #ccc ${progress}%)`;
   };
 
   return (
-    <div className="calculator">
+    <div
+      className="calculator"
+      style={{
+        '--mtX': `${mtX}px`,
+        '--mtM': `${mtM ? mtM : mtX}px`,
+        '--mtS': `${mtS ? mtS : mtM ? mtM : mtX}px`
+      }}
+    >
       <div className="container">
         <div className="calculator__header">
           <div className="calculator__title">Let’s figure out how much you can afford</div>
