@@ -22,7 +22,7 @@ const EightSection = () => {
         <div className={styles.wrapper}>
           <div className={styles.title}>Interesting to read</div>
           <div className={styles.btn}>
-            <LinkLiner wx={180} ws={'auto'}>
+            <LinkLiner to={'/'} wx={180} ws={'auto'}>
               All articles
             </LinkLiner>
           </div>
