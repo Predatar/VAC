@@ -10,12 +10,14 @@ const Calculator = ({ mtX, mtM, mtS }) => {
   const [duration, setDuration] = useState(1);
 
   const changeTab = ({ target }) => {
-    const node = target.parentNode;
-    node.childNodes.forEach(elem => {
-      elem.classList.contains('calculator__tab_active') ? elem.classList.remove('calculator__tab_active') : null;
-    });
-    target.classList.add('calculator__tab_active');
-    setMultiplier(+target.getAttribute('datatype'));
+    if (target.classList.contains('calculator__tab')) {
+      const node = target.parentNode;
+      node.childNodes.forEach(elem => {
+        elem.classList.contains('calculator__tab_active') ? elem.classList.remove('calculator__tab_active') : null;
+      });
+      target.classList.add('calculator__tab_active');
+      setMultiplier(+target.getAttribute('datatype'));
+    }
   };
 
   const changeRange = e => {
