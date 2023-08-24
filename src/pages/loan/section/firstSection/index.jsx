@@ -20,7 +20,7 @@ const FirstSection = () => {
             </div>
           </div>
           <div className={styles.img}>
-            <img src={chevrole} alt="chevrole" />
+            <img src={chevrole} alt="chevrole" loading='lazy'/>
           </div>
         </div>
       </div>

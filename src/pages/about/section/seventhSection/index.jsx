@@ -24,9 +24,9 @@ const SeventhSection = () => {
               drive the vehicle, and if you like it, you sign the loan documents right there and the car is yours.{' '}
             </div>
           </div>
-					<div className={styles.img}>
-						<img src={team} alt="team"/>
-					</div>
+          <div className={styles.img}>
+            <img src={team} alt="team" loading="lazy" />
+          </div>
         </div>
       </div>
     </div>

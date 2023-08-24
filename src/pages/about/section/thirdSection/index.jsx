@@ -10,7 +10,7 @@ const ThirdSection = () => {
       <div className="container">
         <div className={styles.wrapper}>
           <div className={styles.img}>
-            <img src={nissan} alt="nissan" />
+            <img src={nissan} alt="nissan" loading='lazy'/>
           </div>
           <div className={styles.text}>
             <div className={styles.title}>VAC is convenience and transparency</div>

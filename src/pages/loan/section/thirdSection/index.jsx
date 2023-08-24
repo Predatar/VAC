@@ -27,7 +27,7 @@ const ThirdSection = () => {
             </div>
           </div>
           <div className={styles.img}>
-            <img src={Ford} alt="ford" />
+            <img src={Ford} alt="ford" loading="lazy" />
           </div>
         </div>
       </div>
