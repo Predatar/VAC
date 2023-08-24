@@ -6,6 +6,7 @@ import Footer from '../../components/footer/Footer';
 const MainPage = lazy(() => import('../main'));
 const CalculatorPage = lazy(() => import('../calculator'));
 const AboutrPage = lazy(() => import('../about'));
+const Loan = lazy(() => import('../loan'));
 
 import './index.scss';
 
@@ -23,6 +24,9 @@ const App = () => {
           </Route>
           <Route path="/about">
             <AboutrPage />
+          </Route>
+          <Route path="/loan-rates">
+            <Loan />
           </Route>
         </Switch>
         <Footer />

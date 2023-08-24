@@ -70,7 +70,7 @@ const Modal = ({ state, onClick }) => {
           <Link to="/about" className="modal__list-item" onClick={onClick}>
             About VAC
           </Link>
-          <Link to="/" className="modal__list-item" onClick={onClick}>
+          <Link to="/loan-rates" className="modal__list-item" onClick={onClick}>
             Loan Rates
           </Link>
           <Link to="/" className="modal__list-item" onClick={onClick}>
