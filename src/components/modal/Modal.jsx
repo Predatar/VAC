@@ -67,19 +67,19 @@ const Modal = ({ state, onClick }) => {
           <div className="modal__list-item" onClick={openContactUs}>
             Contact us
           </div>
-          <Link to="/" className="modal__list-item">
+          <Link to="/about" className="modal__list-item" onClick={onClick}>
             About VAC
           </Link>
-          <Link to="/" className="modal__list-item">
+          <Link to="/" className="modal__list-item" onClick={onClick}>
             Loan Rates
           </Link>
-          <Link to="/" className="modal__list-item">
+          <Link to="/" className="modal__list-item" onClick={onClick}>
             Video
           </Link>
-          <Link to="/" className="modal__list-item">
+          <Link to="/" className="modal__list-item" onClick={onClick}>
             Blog
           </Link>
-          <Link to="/calculator" className="modal__list-item">
+          <Link to="/calculator" className="modal__list-item" onClick={onClick}>
             Calculate
           </Link>
         </div>

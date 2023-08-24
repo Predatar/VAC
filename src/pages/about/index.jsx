@@ -1,33 +1,34 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import FirstSection from './section/firstSection';
+import Heading from '../../components/heading/Heading';
+import FirstSection from './section/fisrtSection';
 import SecondSection from './section/secondSection';
 import ThirdSection from './section/thirdSection';
-import FouthSection from './section/fouthSection';
+import FouthSeection from './section/fouthSection';
 import FifthSection from './section/fifthSection';
 import SixthSection from './section/sixthSection';
 import SeventhSection from './section/seventhSection';
-
-import Calculator from '../../UI/calculator/Calculator';
 import EightSection from './section/eightSection';
+import Calculator from '../../UI/calculator/Calculator';
 
-const MainPage = () => {
+const About = () => {
   return (
     <>
       <Helmet>
-        <title>Main page - VAC</title>
+        <title>About us - VAC</title>
       </Helmet>
+      <Heading title={'About VAC '} />
       <FirstSection />
       <SecondSection />
       <ThirdSection />
-      <FouthSection />
+      <FouthSeection />
       <FifthSection />
       <SixthSection />
       <SeventhSection />
-      <Calculator mtX={220} mtM={159} mtS={80} />
       <EightSection />
+      <Calculator mtX={216} mtM={160} mtS={80} />
     </>
   );
 };
 
-export default MainPage;
+export default About;

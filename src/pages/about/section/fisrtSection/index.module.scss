@@ -1,0 +1,89 @@
+.section {
+  margin-top: 40px;
+
+  @media (max-width: 540px) {
+    margin-top: 30px;
+  }
+}
+.wrapper {
+  padding: 0 4px 0 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  @media (max-width: 1219px) {
+    justify-content: center;
+  }
+
+  @media (max-width: 540px) {
+    padding: 0;
+    gap: 30px;
+  }
+}
+.card {
+  padding: 60px;
+  width: 584px;
+  border-radius: 5px;
+  background: var(--primary-white, #fff);
+
+  /* Shadow / Card / Default */
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 768px) {
+    margin: 0 60px;
+    padding: 40px;
+    width: 100%;
+  }
+
+  @media (max-width: 540px) {
+    margin: 0;
+    padding: 20px;
+  }
+}
+.carTitle {
+  color: var(--primary---content, #41456b);
+
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 140.5%; /* 63.225px */
+
+  @media (max-width: 540px) {
+    font-size: 30px;
+  }
+}
+.cardSubtitle {
+  margin-top: 20px;
+  color: var(--secondary---text, #606276);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%; /* 28.8px */
+  letter-spacing: 0.32px;
+
+  @media (max-width: 540px) {
+    margin-top: 10px;
+  }
+}
+.cardBtn {
+  margin-top: 40px;
+
+  @media (max-width: 540px) {
+    margin-top: 30px;
+  }
+}
+.img {
+  img {
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    margin: 0 60px;
+    width: 100%;
+  }
+
+  @media (max-width: 540px) {
+    margin: 0;
+  }
+}

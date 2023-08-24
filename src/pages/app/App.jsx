@@ -5,6 +5,7 @@ import Preloader from '../preloader/Preloader';
 import Footer from '../../components/footer/Footer';
 const MainPage = lazy(() => import('../main'));
 const CalculatorPage = lazy(() => import('../calculator'));
+const AboutrPage = lazy(() => import('../about'));
 
 import './index.scss';
 
@@ -20,8 +21,8 @@ const App = () => {
           <Route path="/calculator">
             <CalculatorPage />
           </Route>
-          <Route path="/preloader">
-            <Preloader />
+          <Route path="/about">
+            <AboutrPage />
           </Route>
         </Switch>
         <Footer />

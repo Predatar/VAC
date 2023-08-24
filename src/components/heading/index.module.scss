@@ -1,9 +1,11 @@
 .heading {
-  padding: 40px 0;
-  background: url('../../img/Bg.png') center center/cover no-repeat;
+  height: 145px;
+  display: flex;
+  align-items: center;
+  background: url('./Bg.png') center center/cover no-repeat;
 
   @media (max-width: 767px) {
-    padding: 20px 0;
+    height: 116px;
   }
 }
 .title {
