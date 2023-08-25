@@ -13,19 +13,19 @@ const Footer = () => {
         <div className="footer__wrapper">
           <Logo theme={'dark'} />
           <div className="footer__terms footer__terms_mobile">
-            <Link to="/" className="footer__terms-item">
+            <Link to="/terms" className="footer__terms-item">
               Terms
             </Link>
-            <Link to="/" className="footer__terms-item">
+            <Link to="/privacy" className="footer__terms-item">
               Privacy
             </Link>
           </div>
           <div className="footer__container">
             <div className="footer__terms">
-              <Link to="/" className="footer__terms-item">
+              <Link to="/terms" className="footer__terms-item">
                 Terms
               </Link>
-              <Link to="/" className="footer__terms-item">
+              <Link to="/privacy" className="footer__terms-item">
                 Privacy
               </Link>
             </div>

@@ -8,6 +8,8 @@ const CalculatorPage = lazy(() => import('../calculator'));
 const AboutrPage = lazy(() => import('../about'));
 const Loan = lazy(() => import('../loan'));
 const Page404 = lazy(() => import('../404'));
+const Terms = lazy(() => import('../terms'));
+const Privacy = lazy(() => import('../privacy'));
 
 import './index.scss';
 
@@ -28,6 +30,12 @@ const App = () => {
           </Route>
           <Route path="/loan-rates">
             <Loan />
+          </Route>
+          <Route path="/terms">
+            <Terms />
+          </Route>
+          <Route path="/privacy">
+            <Privacy />
           </Route>
           <Route path="*">
             <Page404 />

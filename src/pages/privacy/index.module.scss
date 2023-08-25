@@ -1,0 +1,12 @@
+.section {
+  margin-top: 40px;
+
+  @media (max-width: 640px) {
+    margin-top: 30px;
+  }
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
