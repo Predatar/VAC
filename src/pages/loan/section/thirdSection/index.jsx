@@ -21,7 +21,7 @@ const ThirdSection = () => {
               so that you know exactly what details of the loan are before you sign anything.
             </div>
             <div className={styles.btn}>
-              <LinkSolid to={'/'} wx={200} ws={'auto'}>
+              <LinkSolid to={'/catalog'} wx={200} ws={'auto'}>
                 request a car
               </LinkSolid>
             </div>

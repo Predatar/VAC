@@ -19,7 +19,7 @@ const FirstSection = () => {
               car to you!
             </div>
             <div className={styles.cardBtn}>
-              <LinkSolid to={'/'} wx={200} ws={'auto'}>
+              <LinkSolid to={'/catalog'} wx={200} ws={'auto'}>
                 request a car
               </LinkSolid>
             </div>

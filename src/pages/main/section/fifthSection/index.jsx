@@ -26,7 +26,7 @@ const FifthSection = () => {
               <div className={styles.subtitle}>
                 In our catalogue there are many models of vehicles. Choose your car to your liking.
               </div>
-              <LinkSolid to={'/'} wx={190} ws={'auto'}>
+              <LinkSolid to={'/catalog'} wx={190} ws={'auto'}>
                 Inventory
               </LinkSolid>
             </div>

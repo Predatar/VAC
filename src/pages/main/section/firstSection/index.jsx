@@ -25,7 +25,7 @@ const FirstSection = () => {
         <div className={styles.wrapper}>
           <div className={styles.title}>The easiest way to buy a car in Canada</div>
           <div className={styles.btn}>
-            <LinkSolidWhite to={'/'} wx={200} ws={214}>
+            <LinkSolidWhite to={'/catalog'} wx={200} ws={214}>
               Request a {cars[slide]}
             </LinkSolidWhite>
           </div>

@@ -14,7 +14,7 @@ const FirstSection = () => {
             <div className={styles.title}>Our credit policy</div>
             <div className={styles.subtitle}>You want to secure a loan that works for your budget. Here at VAC we work with Canada’s largest lenders to help you find the best interest rates and terms for your auto loan.</div>
             <div className={styles.btn}>
-              <LinkSolid to={'/'} wx={200} ws={'auto'}>
+              <LinkSolid to={'/catalog'} wx={200} ws={'auto'}>
                 request a car
               </LinkSolid>
             </div>

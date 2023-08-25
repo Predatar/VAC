@@ -31,7 +31,7 @@ const FouthSeection = () => {
               clearly and you have had a chance to read it.
             </div>
             <div className={styles.btn}>
-              <LinkSolid to={'/'} wx={200} ws={'auto'}>
+              <LinkSolid to={'/catalog'} wx={200} ws={'auto'}>
                 request a car
               </LinkSolid>
             </div>
