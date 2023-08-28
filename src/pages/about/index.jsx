@@ -9,7 +9,7 @@ import FifthSection from './section/fifthSection';
 import SixthSection from './section/sixthSection';
 import SeventhSection from './section/seventhSection';
 import EightSection from './section/eightSection';
-import Calculator from '../../UI/calculator/Calculator';
+import Calculator from '../../components/calculator/Calculator';
 
 const About = () => {
   return (

@@ -37,7 +37,7 @@ const Header = () => {
                   Request a car
                 </LinkSolid>
               </div>
-              <div className="header__burger" style={{ display: `${modal ? 'none' : 'flex'}` }} onClick={openModal}>
+              <div className="header__burger" style={{ opacity: `${modal ? '0' : '1'}` }} onClick={openModal}>
                 <span></span>
                 <span></span>
                 <span></span>

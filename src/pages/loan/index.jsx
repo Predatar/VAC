@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import FirstSection from './section/firstSection';
 import SecondSection from './section/secondSection';
 import ThirdSection from './section/thirdSection';
-import Calculator from '../../UI/calculator/Calculator';
+import Calculator from '../../components/calculator/Calculator';
 
 const Loan = () => {
   return (

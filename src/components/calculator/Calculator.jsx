@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import LinkSolid from '../links/linkSolid/LinkSolid';
+import LinkSolid from '../../UI/links/linkSolid/LinkSolid';
 
 import './index.scss';
 

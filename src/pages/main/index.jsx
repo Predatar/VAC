@@ -8,7 +8,7 @@ import FifthSection from './section/fifthSection';
 import SixthSection from './section/sixthSection';
 import SeventhSection from './section/seventhSection';
 
-import Calculator from '../../UI/calculator/Calculator';
+import Calculator from '../../components/calculator/Calculator';
 import EightSection from './section/eightSection';
 
 const MainPage = () => {

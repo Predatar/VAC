@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import Heading from '../../components/heading/Heading';
-import Calculator from '../../UI/calculator/Calculator';
+import Calculator from '../../components/calculator/Calculator';
 
 const CalculatorPage = () => {
   return (
