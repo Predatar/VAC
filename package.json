@@ -8,7 +8,7 @@
     "build-dev": "webpack",
     "build-prod": "webpack --node-env=production",
     "clear": "rd /s /q build",
-    "server": "http-server build -o",
+    "server": "http-server build -o -g",
     "git": "gh-pages -b build -d build"
   },
   "keywords": [],

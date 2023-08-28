@@ -1,0 +1,14 @@
+.section {
+  width: 100%;
+  height: 200px;
+
+  background: url('../../../../img/article_bg.jpg') center center/cover no-repeat;
+
+  @media (max-width: 1044px) {
+    height: 194px;
+  }
+
+  @media (max-width: 640px) {
+    height: 140px;
+  }
+}

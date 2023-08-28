@@ -1,5 +1,5 @@
 import React from 'react';
-import Step from '../../components/step';
+import Step from '../../../../components/step';
 
 import styles from './index.module.scss';
 

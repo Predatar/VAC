@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Metric from '../../../main/components/metrics/Metrics';
+import Metric from '../../../../components/metrics/Metrics';
 
 import styles from './index.module.scss';
 

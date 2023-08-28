@@ -1,7 +1,7 @@
 import React from 'react';
 
 import LinkSolid from '../../../../UI/links/linkSolid/LinkSolid';
-import Metrics from '../../components/metrics/Metrics';
+import Metrics from '../../../../components/metrics/Metrics';
 
 import styles from './index.module.scss';
 
