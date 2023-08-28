@@ -76,7 +76,7 @@ const Modal = ({ state, onClick }) => {
           <Link to="/" className="modal__list-item" onClick={onClick}>
             Video
           </Link>
-          <Link to="/" className="modal__list-item" onClick={onClick}>
+          <Link to="/blog" className="modal__list-item" onClick={onClick}>
             Blog
           </Link>
           <Link to="/calculator" className="modal__list-item" onClick={onClick}>

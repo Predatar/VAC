@@ -10,6 +10,7 @@ const Loan = lazy(() => import('../loan'));
 const Page404 = lazy(() => import('../404'));
 const Terms = lazy(() => import('../terms'));
 const Privacy = lazy(() => import('../privacy'));
+const Blog = lazy(() => import('../blog'));
 
 import './index.scss';
 
@@ -36,6 +37,12 @@ const App = () => {
           </Route>
           <Route path="/privacy">
             <Privacy />
+          </Route>
+          <Route path="/blog/:id">
+            <Page404 />
+          </Route>
+          <Route path="/blog">
+            <Blog />
           </Route>
           <Route path="*">
             <Page404 />
