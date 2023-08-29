@@ -21,7 +21,7 @@ const SixthSection = () => {
             <div className={styles.subtitle}>
               What are you waiting? <br /> Get started right now!
             </div>
-            <LinkSolid to={'/catalog'} wx={200} ws={'auto'}>
+            <LinkSolid to={'/quiz'} wx={200} ws={'auto'}>
               Request a car
             </LinkSolid>
           </div>

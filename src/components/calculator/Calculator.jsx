@@ -114,7 +114,7 @@ const Calculator = ({ mtX, mtM, mtS }) => {
               <div className="calculator__price-title">Weekly Payment</div>
               <div className="calculator__price-count">$ {Math.floor((amount * multiplier) / duration / 4)}</div>
             </div>
-            <LinkSolid to={'/'} wx={250} ws={'auto'}>
+            <LinkSolid to={'/quiz'} wx={250} ws={'auto'}>
               request a car
             </LinkSolid>
           </div>

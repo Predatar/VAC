@@ -30,10 +30,10 @@ const Header = () => {
             <Logo theme={'light'} />
             <div className="header__wrapper">
               <div className="header__links">
-                <LinkLiner to={'/'} wx={137}>
+                <LinkLiner to={'/catalog'} wx={137}>
                   Inventory
                 </LinkLiner>
-                <LinkSolid to={'/'} wx={200} wm={178} ws={130}>
+                <LinkSolid to={'/quiz'} wx={200} wm={178} ws={130}>
                   Request a car
                 </LinkSolid>
               </div>
