@@ -13,6 +13,7 @@ const Privacy = lazy(() => import('../privacy'));
 const Blog = lazy(() => import('../blog'));
 const Article1 = lazy(() => import('../article1'));
 const Article2 = lazy(() => import('../article2'));
+const Video = lazy(() => import('../video'));
 
 import './index.scss';
 
@@ -48,6 +49,9 @@ const App = () => {
           </Route>
           <Route path="/article">
             <Article2 />
+          </Route>
+          <Route path="/video">
+            <Video />
           </Route>
           <Route path="*">
             <Page404 />
