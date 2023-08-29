@@ -5,7 +5,7 @@ import LinkLiner from '../../../../UI/links/linkLiner/LinkLiner';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 
-import Article from '../../../../UI/article/Article';
+import Article from '../../../../components/article/Article';
 
 import 'swiper/scss';
 import 'swiper/scss/navigation';

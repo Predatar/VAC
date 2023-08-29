@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Article from '../../../../UI/article/Article';
+import Article from '../../../../components/article/Article';
 
 import styles from './index.module.scss';
 

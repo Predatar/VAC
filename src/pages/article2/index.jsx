@@ -2,11 +2,11 @@ import React from 'react';
 
 import { Helmet } from 'react-helmet';
 
-import FirstSection from './section/firstSection';
+import FirstSection from '../article1/section/firstSection';
 import SecondSection from './section/secondSection';
-import ThirdSection from './section/thirdSection';
+import ThirdSection from '../article1/section/thirdSection';
 
-const Article1 = () => {
+const Article2 = () => {
   return (
     <>
       <Helmet>
@@ -19,4 +19,4 @@ const Article1 = () => {
   );
 };
 
-export default Article1;
+export default Article2;

@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 
 import LinkLiner from '../../../../UI/links/linkLiner/LinkLiner';
-import Article from '../../../../UI/article/Article';
+import Article from '../../../../components/article/Article';
 
 import 'swiper/scss';
 import 'swiper/scss/navigation';
@@ -22,7 +22,7 @@ const EightSection = () => {
         <div className={styles.wrapper}>
           <div className={styles.title}>Interesting to read</div>
           <div className={styles.btn}>
-            <LinkLiner to={'/article'} wx={180} ws={'auto'}>
+            <LinkLiner to={'/blog'} wx={180} ws={'auto'}>
               All articles
             </LinkLiner>
           </div>
@@ -36,13 +36,21 @@ const EightSection = () => {
             autoHeight
           >
             <SwiperSlide className={styles.slide}>
-              <Article to={'/'} img={article1} title={'How to save on buying a car?Why is it better to buy from us'} />
+              <Article
+                to={'/blog/1'}
+                img={article1}
+                title={'How to save on buying a car?Why is it better to buy from us'}
+              />
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
-              <Article to={'/'} img={article2} title={'How fast can you order a car in Canada?'} />
+              <Article to={'/blog/2'} img={article2} title={'How fast can you order a car in Canada?'} />
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
-              <Article to={'/'} img={article3} title={'How to save on buying a car?Why is it better to buy from us'} />
+              <Article
+                to={'/blog/3'}
+                img={article3}
+                title={'How to save on buying a car?Why is it better to buy from us'}
+              />
             </SwiperSlide>
           </Swiper>
         </div>
