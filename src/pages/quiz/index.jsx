@@ -649,23 +649,18 @@ const Quiz = ({ setFooter }) => {
   );
   const success = (
     <>
-      <svg
-        width="70"
-        height="70"
-        viewBox="0 0 70 70"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        style={{ marginTop: '109px' }}
-      >
-        <circle cx="35" cy="35" r="33.5" stroke="#7481FF" stroke-width="3" />
-        <path
-          d="M21 37.2925L32.3077 47.6L50.4 21"
-          stroke="#7481FF"
-          stroke-width="3"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
+      <div className={styles.img}>
+        <svg width="100%" height="100%" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="35" cy="35" r="33.5" stroke="#7481FF" stroke-width="3" />
+          <path
+            d="M21 37.2925L32.3077 47.6L50.4 21"
+            stroke="#7481FF"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
       <div className={styles.titleSuccess}>Application successful!</div>
       <div className={styles.subtitleSuccess}>
         Your response was successfully submitted. Thank you! Our team will reach out to you shortly.
@@ -674,7 +669,7 @@ const Quiz = ({ setFooter }) => {
       <input type="text" name="id" id="id" className={styles.inputSuccess} value={'0002466-1vwrh0'} disabled />
       <div className={styles.btnWrapper}>
         <LinkSolid wx={222} ws={'auto'} to={'/'}>
-          Сontinue
+          go to main page
         </LinkSolid>
       </div>
     </>
