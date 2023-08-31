@@ -2,6 +2,8 @@
   height: 80px;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #d7d7d7;
+  z-index: 20;
 
   @media (max-width: 425px) {
     height: 55px;

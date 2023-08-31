@@ -9,7 +9,7 @@
   z-index: -1;
   &_show {
     display: block;
-    z-index: 10;
+    z-index: 30;
   }
 }
 .modal {
@@ -52,8 +52,16 @@
     letter-spacing: 0.5px;
     cursor: pointer;
 
+    &:first-child {
+      display: none;
+    }
+
     @media (max-width: 640px) {
       font-size: 20px;
+
+      &:first-child {
+        display: block;
+      }
     }
   }
 

@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+import React, { lazy, Suspense, useState } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Header from '../../components/header/Header';
 import Preloader from '../preloader/Preloader';
@@ -14,10 +14,13 @@ const Blog = lazy(() => import('../blog'));
 const Article1 = lazy(() => import('../article1'));
 const Article2 = lazy(() => import('../article2'));
 const Video = lazy(() => import('../video'));
+const Quiz = lazy(() => import('../quiz'));
 
 import './index.scss';
 
 const App = () => {
+  const [footer, setFooter] = useState(false);
+
   return (
     <>
       <Suspense fallback={<Preloader />}>
@@ -53,11 +56,16 @@ const App = () => {
           <Route path="/video">
             <Video />
           </Route>
+          <Route path="/quiz">
+            <Quiz setFooter={setFooter} />
+          </Route>
           <Route path="*">
             <Page404 />
           </Route>
         </Switch>
-        <Footer />
+        <div style={{ display: `${footer ? 'none' : 'block'}` }}>
+          <Footer />
+        </div>
       </Suspense>
     </>
   );

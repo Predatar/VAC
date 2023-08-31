@@ -64,6 +64,9 @@ const Modal = ({ state, onClick }) => {
           </svg>
         </div>
         <div className="modal__list">
+          <Link to="/catalog" className="modal__list-item" onClick={onClick}>
+            Inventory
+          </Link>
           <div className="modal__list-item" onClick={openContactUs}>
             Contact us
           </div>
