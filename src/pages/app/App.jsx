@@ -15,16 +15,18 @@ const Article1 = lazy(() => import('../article1'));
 const Article2 = lazy(() => import('../article2'));
 const Video = lazy(() => import('../video'));
 const Quiz = lazy(() => import('../quiz'));
+const Catalog = lazy(() => import('../catalog'));
 
 import './index.scss';
 
 const App = () => {
   const [footer, setFooter] = useState(false);
+  const [inventory, setInventory] = useState(false);
 
   return (
     <>
       <Suspense fallback={<Preloader />}>
-        <Header />
+        <Header inventory={inventory} />
         <Switch>
           <Route exact path="/">
             <MainPage />
@@ -58,6 +60,9 @@ const App = () => {
           </Route>
           <Route path="/quiz">
             <Quiz setFooter={setFooter} />
+          </Route>
+          <Route path="/catalog">
+            <Catalog setInventory={setInventory} />
           </Route>
           <Route path="*">
             <Page404 />

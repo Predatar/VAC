@@ -1,0 +1,16 @@
+.range-slider {
+  border-radius: 2px;
+  background: var(--secondary---s-color, #d7d7d7);
+
+  &__range {
+    background: #7481ff !important;
+  }
+
+  &__thumb {
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 2px !important;
+    border: 1px solid var(--primary---white, #fff) !important;
+    background: var(--primary---accent, #7481ff) !important;
+  }
+}

@@ -1,0 +1,31 @@
+.filter {
+  width: 300px;
+}
+.container {
+  margin-top: 9px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.title {
+  color: var(--primary---content, #41456b);
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px; /* 125% */
+}
+.clear {
+  color: var(--primary---accent, #7481ff);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 159%; /* 25.44px */
+  cursor: pointer;
+}
+
+.wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

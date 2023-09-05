@@ -1,0 +1,30 @@
+.wrapper {
+  padding: 10px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  svg {
+    transform: rotate(0);
+  }
+}
+.checkbox {
+  cursor: pointer;
+  svg {
+    pointer-events: none;
+  }
+}
+.text {
+  display: flex;
+  align-items: center;
+
+  color: var(--primary---content, #41456b);
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 14.364px;
+}

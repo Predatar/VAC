@@ -14,6 +14,21 @@
     justify-content: space-between;
   }
 
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__inventory {
+    color: var(--primary---content, #41456b);
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 140%; /* 35px */
+    letter-spacing: 0.5px;
+  }
+
   &__wrapper {
     display: flex;
     align-items: center;
