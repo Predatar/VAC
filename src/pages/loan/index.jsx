@@ -17,7 +17,7 @@ const Loan = () => {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
-      <Calculator mtX={220} mtM={156} mtS={78} />F
+      <Calculator mtX={220} mtM={156} mtS={78} />
     </>
   );
 };
