@@ -44,7 +44,7 @@ const Video = () => {
       <div className={styles.section}>
         <div className="container">
           <ResponsiveMasonry columnsCountBreakPoints={{ 320: 1, 1225: 2 }}>
-            <Masonry gutter="40px" className={styles.wrapper}>
+            <Masonry gutter="20px" className={styles.wrapper}>
               <VideoCard
                 img={videoImg1}
                 title={"VAC's Vehicle Shoot #10: 2018 Chevy Cruze Hatchback"}

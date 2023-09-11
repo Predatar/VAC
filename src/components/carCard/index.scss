@@ -1,0 +1,11 @@
+.carCard {
+  .swiper-scrollbar {
+    border-radius: 28px;
+    background: rgba($color: #fff, $alpha: 0.2);
+    bottom: 10px;
+  }
+  .swiper-scrollbar-drag {
+    border-radius: 28px;
+    background: rgba($color: #fff, $alpha: 0.7);
+  }
+}

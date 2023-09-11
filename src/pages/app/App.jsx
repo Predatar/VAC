@@ -16,6 +16,7 @@ const Article2 = lazy(() => import('../article2'));
 const Video = lazy(() => import('../video'));
 const Quiz = lazy(() => import('../quiz'));
 const Catalog = lazy(() => import('../catalog'));
+const CarPage = lazy(() => import('../carPage'));
 
 import './index.scss';
 
@@ -63,6 +64,9 @@ const App = () => {
           </Route>
           <Route path="/catalog">
             <Catalog setInventory={setInventory} />
+          </Route>
+          <Route path="/carPage">
+            <CarPage />
           </Route>
           <Route path="*">
             <Page404 />

@@ -1,11 +1,37 @@
 .filter {
   width: 300px;
+
+  @media (max-width: 1186px) {
+    width: 100%;
+    display: none;
+    background: #fff;
+    position: absolute;
+    top: 80px;
+    z-index: 2;
+
+    &Active {
+      display: block;
+    }
+  }
 }
 .container {
   margin-top: 9px;
   display: flex;
   align-items: center;
   gap: 20px;
+
+  @media (max-width: 1186px) {
+    margin: 48px auto 0;
+
+    width: 420px;
+  }
+
+  @media (max-width: 568px) {
+    margin-top: 13px;
+    padding: 0 20px;
+    width: 100%;
+    gap: 10px;
+  }
 }
 .title {
   color: var(--primary---content, #41456b);
@@ -28,4 +54,43 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+
+  @media (max-width: 1186px) {
+    margin: 20px auto 40px;
+    width: 420px;
+
+    overflow-y: scroll;
+  }
+
+  @media (max-width: 568px) {
+    padding: 0 20px;
+    width: 100%;
+  }
+}
+.close {
+  display: none;
+
+  position: absolute;
+  top: 48px;
+  left: 24px;
+
+  cursor: pointer;
+
+  &Mob {
+    display: none;
+
+    cursor: pointer;
+
+    @media (max-width: 568px) {
+      display: block;
+    }
+  }
+
+  @media (max-width: 1186px) {
+    display: block;
+  }
+
+  @media (max-width: 568px) {
+    display: none;
+  }
 }

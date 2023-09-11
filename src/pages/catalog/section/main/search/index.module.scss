@@ -1,0 +1,256 @@
+.wrapper {
+  width: 860px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 1186px) {
+    width: 720px;
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.container {
+  display: flex;
+  gap: 20px;
+  svg {
+    cursor: pointer;
+  }
+
+  @media (max-width: 425px) {
+    justify-content: center;
+  }
+}
+.mobFilter {
+  display: none;
+
+  align-items: center;
+  gap: 10px;
+  color: var(--primary-content, #41456b);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%; /* 28.8px */
+  letter-spacing: 0.32px;
+
+  cursor: pointer;
+
+  @media (max-width: 1186px) {
+    display: flex;
+  }
+
+  @media (max-width: 767px) {
+    span {
+      display: none;
+    }
+  }
+}
+.inputWrapper {
+}
+.img {
+  display: flex;
+  align-items: center;
+}
+.input {
+  width: 350px;
+  padding-left: 20px;
+  height: 45px;
+  border-radius: 2px;
+  border: 1px solid var(--secondary---s-color, #d7d7d7);
+  background: url('../../../img/Search.svg') right 20px center no-repeat;
+
+  color: var(--primary---content, #d7d7d7);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 159%; /* 25.44px */
+
+  &::placeholder {
+    color: #d7d7d7;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  @media (max-width: 1186px) {
+    width: 240px;
+  }
+
+  @media (max-width: 425px) {
+    width: 231px;
+    font-size: 14px;
+  }
+
+  @media (max-width: 359px) {
+    padding-left: 10px;
+    width: 100%;
+    background-position: right 10px center;
+  }
+}
+.sort {
+  display: flex;
+  align-items: center;
+  color: var(--primary---content, #41456b);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%; /* 28.8px */
+  letter-spacing: 0.32px;
+
+  @media (max-width: 1186px) {
+    display: none;
+  }
+}
+.select {
+  width: 237px;
+  height: var(--heightList);
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  border: 1px solid var(--secondary---s-color, #d7d7d7);
+  background: var(--primary---white, #fff);
+
+  transition: all 0.2s;
+
+  overflow: hidden;
+
+  svg {
+    transition: all 0.2s;
+  }
+
+  &Active {
+    overflow: visible;
+    border-bottom-color: transparent;
+    svg {
+      transform: rotate(-180deg);
+    }
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+.selected {
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: var(--primary---content, #41456b);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 159%; /* 25.44px */
+
+  cursor: pointer;
+
+  span {
+    pointer-events: none;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 14px;
+  }
+}
+.list {
+  padding: 0 20px 20px;
+  width: calc(100% + 2px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: #fff;
+  border-radius: 2px;
+  border: 1px solid var(--secondary---s-color, #d7d7d7);
+  border-top-color: transparent;
+  position: absolute;
+  left: -1px;
+  top: calc(100% - 1px);
+  z-index: 2;
+}
+.item {
+  color: var(--primary---content, #41456b);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 159%; /* 25.44px */
+
+  transition: all 0.2s;
+
+  cursor: pointer;
+
+  &:hover {
+    background: var(--secondary---s-color);
+  }
+
+  @media (max-width: 425px) {
+    font-size: 14px;
+  }
+}
+
+.searchPopup {
+  padding: 20px 10px 20px 20px;
+  height: 155px;
+
+  display: none;
+  gap: 5px;
+
+  border-radius: 2px;
+  border: 1px solid var(--secondary---s-color, #d7d7d7);
+  background: var(--primary-white, #fff);
+
+  z-index: 2;
+
+  &Active {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 1186px) {
+      width: 100%;
+      position: absolute;
+      top: 100%;
+      z-index: 3;
+    }
+  }
+
+  &Wrapper {
+    width: 100%;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &Text {
+    color: var(--primary---content, #41456b);
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14.364px; /* 89.775% */
+    cursor: pointer;
+  }
+
+  &Opacity {
+    width: 244.4px;
+    height: 37px;
+
+    border-radius: 1px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
